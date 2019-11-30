@@ -9,6 +9,7 @@ public int getNumbers() {
     return number;
 }
     public int getExponential() {
+        System.out.println("Exponential: ");
         int number = givennumber();
         System.out.println("Exponential is : " + number);
         return number;

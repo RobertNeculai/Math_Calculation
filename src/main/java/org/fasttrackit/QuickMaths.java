@@ -41,10 +41,9 @@ public class QuickMaths {
         return d;
     }
     private double Exponential(double a,int b) {
-        double e=0;
-        int c;
-        for (c = 0; c <= b; c++)
-            e = a * a;
+        double e=1;
+        for(int c=0;c<b;c++)
+            e=e*a;
         return e;
     }
 }
